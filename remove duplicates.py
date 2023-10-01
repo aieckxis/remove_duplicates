@@ -9,7 +9,7 @@ def remove_duplicates(string):
 
         # If the character is not in the result string, add it
         if character not in result:
-            result = character
+            result += character
 
         return result
 
