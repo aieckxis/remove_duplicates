@@ -15,7 +15,7 @@ def remove_duplicates(string):
 
 # Read the number of strings (N)
 N = int(input())
-strings = (N)
+strings = []
 
 # Read the N strings
 for _ in range(N):
