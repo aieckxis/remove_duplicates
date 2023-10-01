@@ -11,7 +11,7 @@ def remove_duplicates(string):
         if character not in result:
             result += character
 
-        return result
+    return result
 
 # Read the number of strings (N)
 N = int(input())
