@@ -15,11 +15,11 @@ def remove_duplicates(string):
 
 # Read the number of strings (N)
 N = int(input())
-strings = ()
+strings = (N)
 
 # Read the N strings
 for _ in range(N):
-    string = input(N)
+    string = input()
     strings.append(string)
 
 # Process and print the strings with duplicates removed
