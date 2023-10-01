@@ -1,5 +1,5 @@
 # Define a function to remove duplicate characters from a string
-def remove_duplicates(stirng):
+def remove_duplicates(string):
 
     # Create an empty string to store the result
     result = ""
