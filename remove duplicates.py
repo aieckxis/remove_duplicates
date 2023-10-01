@@ -12,6 +12,17 @@ def remove_duplicates(string):
             result = character
 
         return result
+
 # Read the number of strings (N)
+N = int(input())
+strings = ()
+
 # Read the N strings
+for _ in range(N):
+    string = input()
+    strings.append(string)
+
 # Process and print the strings with duplicates removed
+for string in strings:
+    cleaned_string = remove_duplicates(string)
+    print(cleaned_string)
