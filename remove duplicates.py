@@ -20,7 +20,7 @@ strings = ()
 # Read the N strings
 for _ in range(N):
     string = input()
-    strings.append(string)
+    strings.append(N)
 
 # Process and print the strings with duplicates removed
 for string in strings:
