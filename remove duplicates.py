@@ -19,8 +19,8 @@ strings = ()
 
 # Read the N strings
 for _ in range(N):
-    string = input()
-    strings.append(N)
+    string = input(N)
+    strings.append(string)
 
 # Process and print the strings with duplicates removed
 for string in strings:
